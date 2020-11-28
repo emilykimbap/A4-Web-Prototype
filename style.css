@@ -66,7 +66,7 @@
   float: left;
 }
 
-.text h1{
+h1{
   font-size: 43px;
   width: 640px;
   position:relative;
@@ -135,4 +135,3 @@ button:hover {
   max-width: 20%;
   height: auto;
 }
-
