@@ -75,8 +75,8 @@
 }
 
 .text p{
-  width: 650px;
-  font-size: 15px;
+  width: 800px;
+  font-size: 24px;
   position:relative;
   text-align: center;
   left: 30px;
@@ -90,10 +90,6 @@
 
 }
 
-.child image{
-  width: 10%;
-
-}
 
 .sponsor-btn{
   position:relative;
@@ -121,3 +117,22 @@ button:hover {
   cursor: pointer;
   
 }
+
+.rectangle {
+  height: 700px;
+  width: 1500px;
+  background-color: #00509d;
+  position:relative;
+  z-index: -1;
+  left: 300px;
+  top: 800px;
+}
+
+.child2 img{
+  position:absolute;
+  top: 1000px;
+  left: 100px;
+  max-width: 20%;
+  height: auto;
+}
+
