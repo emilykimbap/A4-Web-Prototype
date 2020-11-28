@@ -66,7 +66,7 @@
   float: left;
 }
 
-h1{
+text h1{
   font-size: 43px;
   width: 640px;
   position:relative;
@@ -81,7 +81,7 @@ h1{
   text-align: center;
   left: 30px;
   top: 90px;
-  color: #fdc500
+  color: #003f88
 }
 
 .child{
@@ -125,7 +125,7 @@ button:hover {
   position:relative;
   z-index: -1;
   left: 300px;
-  top: 800px;
+  top: 900px;
 }
 
 .child2 img{
@@ -134,4 +134,70 @@ button:hover {
   left: 100px;
   max-width: 20%;
   height: auto;
+}
+
+h1{
+  margin: 50;
+  padding: 20 20 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox p{
+  margin: 50;
+  padding: 50;
+  font-weight: 1px;
+
+}
+
+.loginbox input{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input [type ="password"]
+{
+  border: none;
+  border-bottom: 2px solid #fdc500;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:#fdc500;
+}
+
+.loginbox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fdc500;
+  color:#fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background:#00509d;
+  color: #fff;
+}
+
+.loginbox a{
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  max-width: 20%;
+  color: #00509d;
+}
+
+.loginbox a:hover{
+  color:#fdc500
+
+}
+
+.loginform {
+  position: relative;
+  text-align: center;
+
 }
