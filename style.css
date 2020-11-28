@@ -13,9 +13,10 @@
 .nav ul{
   display: inline-flex;
   margin: 75px;
+  color: white;
 }
 
-.nav ul li{
+.nav ul li {
   list-style: none;
   margin: 0 30px;
   color: white;
@@ -28,15 +29,25 @@
   height: 50px;
 }
 
-.active{
-  color: #00509d !important;
-}
-
 .login-btn{
   top: 70px;
   right: 80px;
   color: white;
   position: absolute;
+  cursor: pointer;
+}
+
+.static{
+  list-style: none;
+  margin: 0 30px;
+  color: #00509d !important;;
+  cursor: pointer;
+}
+
+.active{
+  list-style: none;
+  margin: 0 30px;
+  color: white;
   cursor: pointer;
 }
 
@@ -84,7 +95,11 @@
 
 }
 
-.button {
+.sponsor-btn{
+  position:relative;
+  text-align: center;
+  left: 30px;
+  top: 90px;
 
 }
 
